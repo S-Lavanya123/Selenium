@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser is maximized]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Registered EmailID is entered]]>
+    </line>
+    <line>
+      <![CDATA[Registered Password is entered]]>
+    </line>
+    <line>
+      <![CDATA[Home page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[module is selected]]>
+    </line>
+    <line>
+      <![CDATA[Camera is selected]]>
+    </line>
+    <line>
+      <![CDATA[Camera is added to cart ]]>
+    </line>
+    <line>
+      <![CDATA[mail a friend is selected]]>
+    </line>
+    <line>
+      <![CDATA[to mail address is entered]]>
+    </line>
+    <line>
+      <![CDATA[mail is sent]]>
+    </line>
+    <line>
+      <![CDATA[Logged out from application]]>
+    </line>
+    <line>
+      <![CDATA[Browser exit sucessful]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-08-20T10:57:10 IST" name="Default suite" finished-at="2022-08-20T10:57:53 IST" duration-ms="43252">
+    <groups>
+    </groups>
+    <test started-at="2022-08-20T10:57:10 IST" name="Default test" finished-at="2022-08-20T10:57:53 IST" duration-ms="43252">
+      <class name="sample.Camera_TC">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:sample.Camera_TC@27462a88]" started-at="2022-08-20T10:56:52 IST" name="launchBrowser" finished-at="2022-08-20T10:57:10 IST" duration-ms="17595" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is maximized]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="NavigatingToApplication()[pri:0, instance:sample.Camera_TC@27462a88]" started-at="2022-08-20T10:57:10 IST" name="NavigatingToApplication" finished-at="2022-08-20T10:57:24 IST" duration-ms="14338" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Registered EmailID is entered]]>
+            </line>
+            <line>
+              <![CDATA[Registered Password is entered]]>
+            </line>
+            <line>
+              <![CDATA[Home page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NavigatingToApplication -->
+        <test-method signature="cameraDescription()[pri:0, instance:sample.Camera_TC@27462a88]" started-at="2022-08-20T10:57:24 IST" name="cameraDescription" finished-at="2022-08-20T10:57:51 IST" duration-ms="26839" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[module is selected]]>
+            </line>
+            <line>
+              <![CDATA[Camera is selected]]>
+            </line>
+            <line>
+              <![CDATA[Camera is added to cart ]]>
+            </line>
+            <line>
+              <![CDATA[mail a friend is selected]]>
+            </line>
+            <line>
+              <![CDATA[to mail address is entered]]>
+            </line>
+            <line>
+              <![CDATA[mail is sent]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cameraDescription -->
+        <test-method is-config="true" signature="logoutoperation(org.testng.ITestResult)[pri:0, instance:sample.Camera_TC@27462a88]" started-at="2022-08-20T10:57:51 IST" name="logoutoperation" finished-at="2022-08-20T10:57:53 IST" duration-ms="1998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cameraDescription status=SUCCESS method=Camera_TC.cameraDescription()[pri:0, instance:sample.Camera_TC@27462a88] output=module is selected]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out from application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutoperation -->
+        <test-method is-config="true" signature="closingTheApp()[pri:0, instance:sample.Camera_TC@27462a88]" started-at="2022-08-20T10:57:53 IST" name="closingTheApp" finished-at="2022-08-20T10:57:55 IST" duration-ms="1829" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser exit sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closingTheApp -->
+      </class> <!-- sample.Camera_TC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
